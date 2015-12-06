@@ -6,21 +6,21 @@ print "2.相减"
 print "3.相乘"
 print "4.相除"
 
-choice = input("输入你的选择(1/2/3/4)：")
+choice = input("输入你的选择(+ / - / * / /)：")
 
 num1 = int(input("输入第一个数字："))
 num2 = int(input("输入第二个数字："))
 
-if choice == '1':
+if choice == '+':
     print "%d + %d = %d" % (num1, num2, num1 + num2)
     
-elif choice == '2':
+elif choice == '-':
     print "%d - %d = %d" % (num1, num2, num1 - num2)
 
-elif choice == '3':
+elif choice == '*':
     print "%d * %d = %d" % (num1, num2, num1 * num2)
 
-elif choice == '4':
+elif choice == '/':
     print "%d / %d = %d" % (num1, num2, num1 / num2)
 
 else:
