@@ -12,7 +12,7 @@ num1 = int(input("输入第一个数字："))
 num2 = int(input("输入第二个数字："))
 
 if choice == '1':
-    print "%d + %d = ％d)" % (num1, num2, num1 + num2)
+    print "%d + %d = %d" % (num1, num2, num1 + num2)
     
 elif choice == '2':
     print "%d - %d = %d" % (num1, num2, num1 - num2)
