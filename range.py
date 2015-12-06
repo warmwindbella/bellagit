@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# 插入排序 
+#  插入排序
 def insertSort(a):
     for i in range(len(a)-1):
         print a, i
@@ -11,7 +11,8 @@ def insertSort(a):
                 a[j] = temp
     return a
 
-# 冒泡排序
+
+#  冒泡排序
 def bubbleSort(alist):
     for passnum in range(len(alist)-1, 0, -1):
         print alist,passnum
@@ -22,7 +23,8 @@ def bubbleSort(alist):
                 alist[i+1] = temp
     return alist$
 
-# 选择排序
+
+#  选择排序
 def selectionSort(alist):
     for i in range(len(alist)-1, 0, -1):
         maxone = 0
